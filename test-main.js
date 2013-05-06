@@ -4,7 +4,6 @@ if(!(typeof require === "function" && typeof exports === "object" && typeof modu
         return  /^\/base\/test\/.*test\.js$/.test(file);
     });
 
-
     requirejs.config({
         // Karma serves files fr om '/base'
         baseUrl: '/base/lib/',
