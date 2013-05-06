@@ -2,7 +2,7 @@ if (typeof define !== 'function') {
     var define = require('amdefine')(module);
 }
 
-define(['chai','module-2'],
+define(['chai','../lib/module-2.js'],
 function(chai,module2){
     'use strict';
 
